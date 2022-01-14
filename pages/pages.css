@@ -1,0 +1,156 @@
+#navbar{
+    display: sticky;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    background-color: rgb(241, 217, 80);
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: 'Space Mono', monospace;
+}
+
+#navbar li{
+    float: left;
+    margin: 10px;
+}
+
+#navbar li:last-child{
+    float: right;
+}
+
+#navbar a{
+    margin: 0px 5px 0px 5px;
+    padding-left: 2px;
+    padding-right: 5px;
+    text-align: center;
+}
+#navbar a:hover{
+    text-shadow: 5px 5px 10px rgb(4, 250, 209);
+}
+
+#navbar a:visited{
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:visited{
+    text-decoration: none;
+    
+}
+body {
+    background-color: bisque;
+    font-family: 'Space Mono', monospace;   
+}
+
+.fa-github{
+    color: black;
+}
+
+.fa-linkedin{
+    color: midnightblue;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+
+#footer i{
+    margin: 5px;
+}
+
+#lasttext{
+    font-family: 'Space Mono', monospace;
+    background-color: burlywood;
+}
+#lasttext p{
+    margin: 5px;
+    text-align: center;
+}
+
+img{
+    width: 600px;
+    height: 600px;
+}
+
+#imagecontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: rgb(243, 194, 121);
+    background-color: rgb(243, 242, 198);
+
+}
+
+#imagecontainer a{
+    color:rgb(0, 0, 0);
+    border: solid 1px;
+    background-color: rgb(248, 234, 152);
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#imagecontainer a:hover{
+    background-color: rgb(248, 227, 109);
+    animation: ease-in-out;
+    animation-duration: 2s;
+}
+
+#back{
+    color:rgb(0, 0, 0);
+    border: solid 1px;
+    background-color: rgb(248, 234, 152);
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#back:hover{
+    background-color: rgb(248, 227, 109);
+    animation: ease-in-out;
+    animation-duration: 2s;
+}
+
+
+h3 {
+    border: 1px solid;
+    border-color: rgb(243, 194, 121);
+    background-color: rgb(240, 238, 146);
+    border-radius: 10px;
+    padding: 10px;    
+}
+
+h1 {
+    border: 1px solid;
+    border-color: rgb(243, 194, 121);
+    background-color: rgb(240, 238, 146);
+    border-radius: 10px;
+    padding: 10px;    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+}
+.boxcontainer {
+    border: 1px solid;
+    border-color: rgb(243, 194, 121);
+    background-color: rgb(243, 242, 198);
+    border-radius: 10px;
+    padding: 10px;    
+}
+
+.boxcontainer li{
+    margin-left: 5%;
+}
