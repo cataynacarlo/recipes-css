@@ -92,7 +92,6 @@ img{
     padding: 10px;
     border-color: rgb(243, 194, 121);
     background-color: rgb(243, 242, 198);
-
 }
 
 #imagecontainer a{
@@ -107,6 +106,23 @@ img{
     background-color: rgb(248, 227, 109);
     animation: ease-in-out;
     animation-duration: 2s;
+}
+
+#imagecontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    border-color: rgb(243, 194, 121);
+    background-color: rgb(243, 242, 198);
+}
+
+#imagecontainer2 img{
+    margin: 10px;
 }
 
 #back{
