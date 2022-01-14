@@ -1,0 +1,72 @@
+#headtitle{
+    border: 2px solid;
+    border-color: rgb(220, 221, 141);
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+}
+
+.food{
+    background-color: rgb(255, 231, 94);
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.food:hover{
+    animation: foodEnlarge;
+    animation-duration: 2s;
+    box-shadow: 10px 10px 5px 5px rgb(235, 201, 8);
+}
+
+body {
+    background-color: bisque;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+    
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+h3 {
+    border: 1px solid;
+    border-color: rgb(243, 194, 121);
+    background-color: rgb(226, 209, 184);
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+p {
+    text-align: center;
+}
+
+@keyframes foodEnlarge {
+    50%{transform: scale(1.2,1.2);}
+}
