@@ -1,10 +1,18 @@
 #headtitle{
-    border: 2px solid;
+    border: 2px outset;
     border-color: rgb(220, 221, 141);
     padding: 10px;
-    margin-left: auto;
     margin-right: auto;
     text-align: center;
+    width: 400px;
+}
+
+#topcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 5px;
+    background-color: cornsilk;
 }
 
 #container{
@@ -15,11 +23,57 @@
     align-items: center;
 }
 
+#navbar{
+    display: sticky;
+    list-style-type: none;
+    background-color: rgb(241, 217, 80);
+    margin: 0;
+    padding: 5px;
+    overflow: hidden;
+    font-size: 30px;
+    font-family: 'Space Mono', monospace;
+}
+
+#navbar li{
+    float: left;
+    margin: 10px;
+}
+
+#navbar li:last-child{
+    float: right;
+}
+
+#navbar a{
+    margin: 0px 5px 0px 5px;
+    padding-left: 2px;
+    padding-right: 5px;
+    text-align: center;
+}
+#navbar a:hover{
+    text-shadow: 5px 5px 10px rgb(4, 250, 209);
+}
+
+#navbar a:visited{
+    text-decoration: none;
+}
+
 #footer{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center; 
+}
+
+#footer i{
+    margin: 5px;
+}
+
+#lasttext{
+    font-family: 'Space Mono', monospace;
+    background-color: burlywood;
+}
+#lasttext p{
+    margin: 5px;
 }
 
 .food{
@@ -30,10 +84,14 @@
     border-radius: 10px;
 }
 
+.food a{
+    color: rgb(0, 0, 0)
+}
+
 .food:hover{
     animation: foodEnlarge;
     animation-duration: 2s;
-    box-shadow: 10px 10px 5px 5px rgb(235, 201, 8);
+    box-shadow: 10px 10px 5px rgb(235, 201, 8);
 }
 
 body {
@@ -42,6 +100,7 @@ body {
 
 a {
     text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 a:visited{
     text-decoration: none;
@@ -51,13 +110,12 @@ a:visited{
 img {
     width: 300px;
     height: 300px;
-    border-radius: 10px;
 }
 
 h3 {
     border: 1px solid;
     border-color: rgb(243, 194, 121);
-    background-color: rgb(226, 209, 184);
+    background-color: rgb(243, 242, 198);
     border-radius: 10px;
     padding: 10px;
     
@@ -69,4 +127,13 @@ p {
 
 @keyframes foodEnlarge {
     50%{transform: scale(1.2,1.2);}
+}
+
+
+.fa-github{
+    color: black;
+}
+
+.fa-linkedin{
+    color: midnightblue;
 }
