@@ -95,9 +95,13 @@
 }
 
 body {
+    margin:1px;
     background-color: bisque;
 }
 
+html {
+    margin: 1px;
+}
 a {
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -136,4 +140,8 @@ p {
 
 .fa-linkedin{
     color: midnightblue;
+}
+
+div{
+    margin: 1px;
 }

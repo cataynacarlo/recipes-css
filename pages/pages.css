@@ -1,3 +1,7 @@
+html{
+    margin: 0;
+}
+
 #navbar{
     display: sticky;
     top: 0;
@@ -43,6 +47,7 @@ a:visited{
     
 }
 body {
+    margin:0;
     background-color: bisque;
     font-family: 'Space Mono', monospace;   
 }
@@ -92,6 +97,7 @@ img{
     padding: 10px;
     border-color: rgb(243, 194, 121);
     background-color: rgb(243, 242, 198);
+    margin: 10px;
 }
 
 #imagecontainer a{
@@ -119,17 +125,18 @@ img{
     padding: 10px;
     border-color: rgb(243, 194, 121);
     background-color: rgb(243, 242, 198);
+    margin:10px;
 }
 
 #imagecontainer2 img{
-    margin: 10px;
+    margin: 5px;
 }
 
 #back{
     color:rgb(0, 0, 0);
     border: solid 1px;
     background-color: rgb(248, 234, 152);
-    margin-top: 10px;
+    margin: 10px;
     padding: 5px;
 }
 
@@ -146,6 +153,7 @@ h3 {
     background-color: rgb(240, 238, 146);
     border-radius: 10px;
     padding: 10px;    
+    margin: 10px;
 }
 
 h1 {
@@ -165,6 +173,7 @@ h1 {
     background-color: rgb(243, 242, 198);
     border-radius: 10px;
     padding: 10px;    
+    margin: 10px;
 }
 
 .boxcontainer li{
